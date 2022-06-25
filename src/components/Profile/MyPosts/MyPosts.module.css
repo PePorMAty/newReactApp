@@ -1,0 +1,39 @@
+
+.profile__post {
+  padding-bottom: 30px;
+  border-bottom: 1px solid rgb(26, 26, 25);
+}
+
+.profile__textarea {
+  width: 98%;
+  border-radius: 10px;
+  padding: 10px 0px 10px 10px;
+  resize: none;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.profile__textarea::placeholder {
+  font-size: 20px;
+}
+
+.profile__btn {
+  height: 50px;
+  padding: 20px 40px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  background-color: gold;
+  margin: auto 0;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all .5s;
+  margin: 0 0 0 auto;
+}
+
+.profile__btn:hover {
+  background-color: rgb(26, 26, 25);
+  color: #fff;
+}

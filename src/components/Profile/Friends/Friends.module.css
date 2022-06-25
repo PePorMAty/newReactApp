@@ -1,0 +1,16 @@
+.friends{
+  margin-top: 30px;
+  padding: 10px;
+  box-shadow:
+      inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+      0 0 0 2px rgb(255, 255, 255),
+      0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+    border: 2px solid gold;
+    width: 230px;
+}
+.friends__inner {
+  margin-top: 30px;
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: repeat(3, 1fr);
+}

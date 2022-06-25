@@ -1,0 +1,52 @@
+.messages{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 30px;
+  margin-left: 10px;
+}
+.messages__message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-left: 1px solid black;
+  min-height: 500px;
+  margin-left: -50px;
+}
+.messages__peoples{
+  width: 397px;
+}
+.messages__send{
+  display: flex;
+  justify-content: space-between;
+}
+.messages__btn{
+  height: 50px;
+  padding: 20px 40px;
+  border: none;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  border-radius: 10px;
+  background-color: gold;
+  cursor: pointer;
+  font-size: 20px;
+  transition: all .5s;
+  margin-top: 10px;
+}
+.messages__btn:hover {
+  background-color: rgb(26, 26, 25);
+  color: #fff;
+}
+.messages__area{
+  width: 100%;
+  border-radius: 10px;
+  padding: 10px 0px 10px 10px;
+  resize: none;
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.messages__area::placeholder {
+  font-size: 20px;
+}
+

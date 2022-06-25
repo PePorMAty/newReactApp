@@ -1,0 +1,27 @@
+.messages__people {
+  display: flex;
+  align-items: center;
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  max-height: 72px;
+  cursor: pointer;
+  transition: all .5s;
+  padding-top: 30px;
+}
+.messages__peoples{
+  margin-top: -30px;
+}
+.messages__people:hover{
+  background-color: grey;
+}
+.messages__people:hover .messages__name{
+  color: gold;
+  
+}
+
+.messages__img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-right: 20px;
+}

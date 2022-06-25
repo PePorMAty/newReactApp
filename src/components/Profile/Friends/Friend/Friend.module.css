@@ -1,0 +1,19 @@
+
+.friends__img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.friends__name {
+  font-size: 18px;
+  margin-top: 3px;
+  cursor: pointer;
+  transition: all .5s;
+  padding-left: 3px;
+}
+
+.friends__name:hover {
+  color: rgb(220, 197, 62);
+}
