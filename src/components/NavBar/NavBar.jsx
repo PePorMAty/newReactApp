@@ -17,6 +17,9 @@ export const NavBar = () => {
           <NavLink to="/settings" className={navData => navData.isActive ? s.active : s.navbar__item}>
             Settings
           </NavLink>
+          <NavLink to="/users" className={navData => navData.isActive ? s.active : s.navbar__item}>
+            Users
+          </NavLink>
         </div>
       </div>
     </div>

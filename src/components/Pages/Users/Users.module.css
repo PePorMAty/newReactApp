@@ -1,0 +1,131 @@
+.top{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.title{
+  margin-right: 40px;
+  margin-left: 30px;
+  
+}
+
+.pagination{
+  display: flex;
+  max-height: 20px;
+}
+.pagination__number{
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: all .5s;
+}
+.pagination__number:hover{
+  font-size: 26px;
+}
+p{
+  
+    padding: 0 10px;
+    cursor: pointer;
+    font-size: 24px;
+    transition: all .5s;
+}
+.pagination__active{
+  color: gold;
+  padding: 0 10px;
+  cursor: pointer;
+  font-size: 24px;
+  transition: all .5s;
+}
+
+
+.userBtn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: gold;
+  margin: auto 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all .5s;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.userBtn:hover {
+  background-color: rgb(26, 26, 25);
+  color: #fff;
+}
+.img{
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: -80px;
+  display: flex;
+  justify-content: center;
+}
+.inner{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.avatar{
+  /* margin-right: 80px; */
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 0 auto;
+}
+.name{
+  margin-left: -80px;;
+  font-size: 16px;
+  text-align: center;
+}
+.btn {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: gold;
+  margin: auto 0;
+  cursor: pointer;
+  font-size: 18px;
+  transition: all .5s;
+  margin-left: -80px;
+}
+
+.btn:hover {
+  background-color: rgb(26, 26, 25);
+  color: #fff;
+}
+.user__info{
+  max-width: 600px;
+  color: rgb(212, 64, 64);
+  padding: 10px 20px;
+  background-color: rgb(209, 209, 105);
+  width: 100%;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.status{
+  font-style: italic;
+  font-size: 18px;
+  margin: auto 0;
+}
+.user__location{
+  font-size: 18px;
+}
+.user__country{
+  color: #fff;
+}
+.user__country span{
+  color: rgb(212, 64, 64);
+}
+.user__city{
+  color: #fff;
+}
+.user__city span{
+  color: rgb(212, 64, 64);
+}

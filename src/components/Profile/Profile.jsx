@@ -1,10 +1,10 @@
 import s from "./Profile.module.css";
 import postImg from "../../images/Masha.jpg";
-import { MyPosts } from "./MyPosts/MyPosts";
 import { Friends } from "./Friends/Friends";
 import { ProfileInfo } from "./ProfileInfo/ProfileInfo";
+import { MyPostsContainer } from "./MyPosts/MyPostsContainer";
 export const Profile = (props) => {
-
+  
   return (
     <div>
       <div className={s.profile}>
@@ -16,11 +16,7 @@ export const Profile = (props) => {
           </div>
           <div className={s.profile__info}>
             <ProfileInfo />
-            <MyPosts 
-            postsData={props.profilePage.postsData}
-            newPostText={props.profilePage.newPostText}
-            dispatch={props.dispatch}
-            />
+            <MyPostsContainer />
           </div>
         </div>
         
