@@ -1,9 +1,7 @@
 import s from "./Messages.module.css";
-
 import { Message } from "./Message/Message";
 import { MessageItem } from "./MessageItem/MessageItem";
 import React from "react";
-
 
 export const Messages = (props) => {
 

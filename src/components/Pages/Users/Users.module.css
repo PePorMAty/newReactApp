@@ -22,13 +22,12 @@
 .pagination__number:hover{
   font-size: 26px;
 }
-p{
-  
+/* p{
     padding: 0 10px;
     cursor: pointer;
     font-size: 24px;
     transition: all .5s;
-}
+} */
 .pagination__active{
   color: gold;
   padding: 0 10px;
@@ -56,9 +55,12 @@ p{
   background-color: rgb(26, 26, 25);
   color: #fff;
 }
+.userBtn:disabled{
+  background-color: rgb(122, 120, 120);
+}
 .img{
-  width: 70px;
-  height: 70px;
+  width: 80px;
+  height: 80px;
   border-radius: 50%;
   margin-left: -80px;
   display: flex;
@@ -98,6 +100,9 @@ p{
 .btn:hover {
   background-color: rgb(26, 26, 25);
   color: #fff;
+}
+.btn:disabled {
+  background-color: rgb(122, 120, 120);
 }
 .user__info{
   max-width: 600px;

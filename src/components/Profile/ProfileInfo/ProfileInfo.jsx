@@ -1,9 +1,13 @@
 import s from "./ProfileInfo.module.css";
-export const ProfileInfo = () => {
+import ProfileStatus from "./ProfileStatus/ProfileStatus"
+
+export const ProfileInfo = (props) => {
   return (
     <div>
-      <p className={s.profile__name}>Maria Ilinih</p>
-      <p className={s.profile__status}>Я делаю вдох, так пахнет Dior❤‍🔥</p>
+      <p className={s.profile__name}>{
+      props.profile.fullName != null ? props.profile.fullName:"Maria Ilinih"}
+      </p>
+      <ProfileStatus {...props} status={props.status}/>
       <div className={s.profile__info}>
         <div className={s.profile__tags}>
           <p className={s.profile__tag}>
