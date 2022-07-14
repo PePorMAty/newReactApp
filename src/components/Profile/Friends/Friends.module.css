@@ -5,7 +5,7 @@
       inset 0 -3em 3em rgba(0, 0, 0, 0.1),
       0 0 0 2px rgb(255, 255, 255),
       0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-    border: 2px solid gold;
+    border: 2px solid rgb(53, 53, 217);;
     width: 230px;
 }
 .friends__title{
@@ -13,7 +13,7 @@
   transition: all .5s;
 }
 .friends__title:hover{
-  color: gold;
+  color: rgb(26, 26, 203);
 }
 .friends__inner {
   margin-top: 30px;

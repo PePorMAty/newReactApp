@@ -5,7 +5,7 @@
       inset 0 -3em 3em rgba(0, 0, 0, 0.1),
       0 0 0 2px rgb(255, 255, 255),
       0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
-  border: 2px solid gold;
+  border: 2px solid rgb(53, 53, 217);
   display: flex;
   justify-content: space-between;
 }
@@ -27,17 +27,16 @@
   transition: all .5s;
 }
 .log{
-  background-color: rgb(220, 197, 62);
+  background-color: rgb(88, 88, 238);
   padding: 7px;
   color: #fff;
   transition: all .5s;
 }
 .log:hover{
-  background-color: rgb(26, 26, 25);
+  background-color: rgb(59, 59, 225);
   color: #fff;
 }
 .reg{
-  width: 200px;
   display: flex;
   justify-content: space-between;
   
@@ -45,4 +44,26 @@
 .auth{
   margin-top: 7px;
   margin-bottom: 7px;
+}
+.wrapper{
+  display: flex;
+}
+.user__log{
+  margin: 5px 30px 0 0;
+  color: rgb(17, 17, 124);
+}
+.log__btn{
+  background-color: rgb(88, 88, 238);
+  padding: 7px;
+  color: #fff;
+  transition: all .5s;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: auto 0;
+  font-size: 15px;
+}
+.log__btn:hover{
+  background-color: rgb(59, 59, 225);
+  color: #fff;
 }

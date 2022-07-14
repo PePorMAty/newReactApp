@@ -12,10 +12,10 @@
   margin-top: -30px;
 }
 .messages__people:hover{
-  background-color: grey;
+  background-color: rgb(130, 130, 226);
 }
 .messages__people:hover .messages__name{
-  color: gold;
+  color: rgb(53, 53, 217);
   
 }
 

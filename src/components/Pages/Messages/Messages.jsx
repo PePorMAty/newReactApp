@@ -26,7 +26,7 @@ export const Messages = (props) => {
   let addMessage = () => {
 
     let messageText = newMessageElement.current.value;
-    if (newMessageElement.current.value == '') {
+    if (newMessageElement.current.value === '') {
       messageText = null;
     } else {
       props.addMessage();

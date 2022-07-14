@@ -1,0 +1,10 @@
+
+.title{
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+.login__form{
+  display: flex;
+  justify-content: center;
+}

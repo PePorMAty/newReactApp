@@ -2,7 +2,7 @@
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin-top: 30px;
-  margin-left: 10px;
+  /* margin-left: 10px; */
 }
 .messages__message {
   display: flex;
@@ -27,14 +27,15 @@
   align-items: center;
   display: flex;
   border-radius: 10px;
-  background-color: gold;
+  background-color: rgb(53, 53, 217);
+  color: #fff;
   cursor: pointer;
   font-size: 20px;
   transition: all .5s;
   margin-top: 10px;
 }
 .messages__btn:hover {
-  background-color: rgb(26, 26, 25);
+  background-color: rgb(130, 130, 226);
   color: #fff;
 }
 .messages__area{

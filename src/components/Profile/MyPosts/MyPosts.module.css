@@ -25,7 +25,8 @@
   align-items: center;
   display: flex;
   border-radius: 10px;
-  background-color: gold;
+  background-color: rgb(88, 88, 238);
+  color: #fff;
   margin: auto 0;
   cursor: pointer;
   font-size: 20px;
@@ -34,6 +35,6 @@
 }
 
 .profile__btn:hover {
-  background-color: rgb(26, 26, 25);
+  background-color: rgb(26, 26, 203);
   color: #fff;
 }

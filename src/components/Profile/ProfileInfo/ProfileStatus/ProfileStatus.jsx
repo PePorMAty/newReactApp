@@ -3,9 +3,6 @@ import s from "./ProfileStatus.module.css"
 
 
 class ProfileStatus extends React.Component {
-  constructor(props) {
-    super(props)
-  }
 
   state = {
     editMode: false,

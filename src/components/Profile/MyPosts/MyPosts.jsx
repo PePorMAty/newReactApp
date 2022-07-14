@@ -14,7 +14,7 @@ export const MyPosts = (props) => {
 
     let text = newPostElement.current.value;
 
-    if (newPostElement.current.value == '') {
+    if (newPostElement.current.value === '') {
       text = null;
     } else {
       props.addPost();

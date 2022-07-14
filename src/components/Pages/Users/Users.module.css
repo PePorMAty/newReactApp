@@ -21,6 +21,7 @@
 }
 .pagination__number:hover{
   font-size: 26px;
+  color: rgb(130, 130, 226);
 }
 /* p{
     padding: 0 10px;
@@ -29,7 +30,7 @@
     transition: all .5s;
 } */
 .pagination__active{
-  color: gold;
+  color: rgb(53, 53, 217);
   padding: 0 10px;
   cursor: pointer;
   font-size: 24px;
@@ -41,7 +42,8 @@
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  background-color: gold;
+  background-color: rgb(53, 53, 217);
+  color: #fff;
   margin: auto 0;
   cursor: pointer;
   font-size: 18px;
@@ -89,16 +91,17 @@
   padding: 10px 20px;
   border: none;
   border-radius: 10px;
-  background-color: gold;
+  background-color: rgb(88, 88, 238);
   margin: auto 0;
   cursor: pointer;
   font-size: 18px;
   transition: all .5s;
   margin-left: -80px;
+  color: #fff;
 }
 
 .btn:hover {
-  background-color: rgb(26, 26, 25);
+  background-color: rgb(59, 59, 225);
   color: #fff;
 }
 .btn:disabled {
@@ -106,9 +109,9 @@
 }
 .user__info{
   max-width: 600px;
-  color: rgb(212, 64, 64);
+  color: #fff;
   padding: 10px 20px;
-  background-color: rgb(209, 209, 105);
+  background-color: rgb(130, 130, 226);
   width: 100%;
   border-radius: 20px;
   display: flex;
@@ -126,11 +129,14 @@
   color: #fff;
 }
 .user__country span{
-  color: rgb(212, 64, 64);
+  color: #fff;
+  font-weight: 700;
 }
 .user__city{
   color: #fff;
+  
 }
 .user__city span{
-  color: rgb(212, 64, 64);
+  color: #fff;
+  font-weight: 700;
 }

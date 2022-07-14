@@ -16,8 +16,8 @@ const Users = (props) => {
       <div className={s.top}>
         <p className={s.title}>Users</p>
         <div className={s.pagination}>
-          {pages.map(p => {
-            return (
+          {pages.map(p => {     
+            return (       
               <p className={
                 props.currentPage === p ? s.pagination__active : s.pagination__number
               }
