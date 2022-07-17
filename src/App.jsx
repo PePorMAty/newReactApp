@@ -7,22 +7,18 @@ import { UsersContainer } from './components/Pages/Users/UsersContainer';
 import ProfileContainer, { withRouter } from './components/Profile/ProfileContainer';
 import { HeaderContainer } from './components/Header/HeaderContainer';
 import Login from './components/Login/Login';
-import React from 'react';
-import getHeader from './redux/authReducer';
+import React, { useEffect } from 'react';
 import { connect } from 'react-redux';
 import { compose } from 'redux';
 import { initializeApp } from './redux/appReducer';
 import { Preloader } from './components/common/Preloader/Preloader';
 
 
-class App extends React.Component {
+function App(props) {
 
-  componentDidMount() {
-    this.props.initializeApp()
-  }
+  useEffect(() => { props.initializeApp() }, []);
 
-  render() {
-    if(!this.props.initialized){
+    if(!props.initialized){
       return <Preloader />
     }
   
@@ -34,6 +30,7 @@ class App extends React.Component {
             <NavBar />
             <div className="page__body">
               <Routes>
+                <Route path='' element={<ProfileContainer />} />
                 <Route path='/profile/' element={<ProfileContainer />} />
                 <Route path='/profile/:userId' element={<ProfileContainer />} />
                 <Route path='/messages/*' element={<MessagesContainer />} />
@@ -47,7 +44,7 @@ class App extends React.Component {
       </BrowserRouter>
     );
   }
-}
+
 
 const mapStateToProps = (state) => {
   return {

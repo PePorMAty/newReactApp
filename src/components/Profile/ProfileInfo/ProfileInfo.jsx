@@ -1,5 +1,8 @@
 import s from "./ProfileInfo.module.css";
 import ProfileStatus from "./ProfileStatus/ProfileStatus"
+import ProfileStatusHook from "./ProfileStatus/ProfileStatusHook"
+
+
 
 export const ProfileInfo = (props) => {
   return (
@@ -7,7 +10,8 @@ export const ProfileInfo = (props) => {
       <p className={s.profile__name}>{
       props.profile.fullName != null ? props.profile.fullName:"Maria Ilinih"}
       </p>
-      <ProfileStatus {...props} status={props.status}/>
+      {/* <ProfileStatus {...props} status={props.status}/> */}
+      <ProfileStatusHook {...props} status={props.status} />
       <div className={s.profile__info}>
         <div className={s.profile__tags}>
           <p className={s.profile__tag}>
